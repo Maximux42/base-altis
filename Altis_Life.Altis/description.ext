@@ -1,7 +1,9 @@
 disableChannels[] ={{1,false,false},{2,false,false},{3,false,false},{4,false,false},{5,false,false},{6,false,false}};     // Disabled text and voice for global, side, and command channels. Syntax: disableChannels[] = {{channelID<number>, disableChat<bool>, disableVoice<bool>}};
 overviewText = "$STR_MISC_overviewText";    // Text to be displayed below the overviewPicture on the mission selection screen when the mission is available to play.
 unsafeCVL = 1; // Allows createVehicleLocal to be executed in Multiplayer
+enableDebugConsole[] = {"76561198057366573"};
 
+#include "infiSTAR_AdminMenu.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"

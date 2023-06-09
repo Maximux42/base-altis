@@ -1,0 +1,14 @@
+// VISION SETTINGS \\
+PublicKey = 7d6e1e63c55b169d1705b28ad3bd2e
+SecretKey = a4ba9532a854a0351f117d9a4482bec394aca74199e3f341
+
+// RCON SETTINGS \\
+rconIp = 86.207.164.204
+rconPort = 2310
+rconPw = azerty42
+
+// REPORTING SETTINGS \\
+reportLogFiles = true
+reportLiveMap = true
+reportZeus = true
+reportMetrics = true

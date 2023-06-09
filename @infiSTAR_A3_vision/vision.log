@@ -1,0 +1,56 @@
+﻿08.06.2023 16:03:07: <<<<< VISION CLIENT START >>>>>
+08.06.2023 16:03:07: Loading C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 16:03:07: Successfully loaded C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 16:03:07: Operating System: Microsoft Windows Server 2019 Standard Evaluation
+08.06.2023 16:03:07: ArmA Process START: 08/06/2023 16:01:51
+08.06.2023 16:03:07: ArmA Process ID: 1996
+08.06.2023 16:03:09: CommandLine: arma3server_x64.exe     -port=2302 "-config=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_config.cfg" "-cfg=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_basic.cfg" "-profiles=C:\arma3\steamapps\common\arma3base\TADST\armabase" -name=armabase -filePatching -autoInit -servermod=@extDB3;@life_server;@The_Programmer;@infiSTAR_A3;@infiSTAR_A3_vision
+08.06.2023 16:47:34: <<<<< VISION CLIENT START >>>>>
+08.06.2023 16:47:34: Loading C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 16:47:34: Successfully loaded C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 16:47:34: Operating System: Microsoft Windows Server 2019 Standard Evaluation
+08.06.2023 16:47:34: ArmA Process START: 08/06/2023 16:46:21
+08.06.2023 16:47:34: ArmA Process ID: 6840
+08.06.2023 16:47:35: CommandLine: arma3server_x64.exe     -port=2302 "-config=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_config.cfg" "-cfg=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_basic.cfg" "-profiles=C:\arma3\steamapps\common\arma3base\TADST\armabase" -name=armabase -filePatching -autoInit -servermod=@extDB3;@life_server;@The_Programmer;@infiSTAR_A3;@infiSTAR_A3_vision
+08.06.2023 17:21:19: <<<<< VISION CLIENT START >>>>>
+08.06.2023 17:21:19: Loading C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 17:21:19: Successfully loaded C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 17:21:19: Operating System: Microsoft Windows Server 2019 Standard Evaluation
+08.06.2023 17:21:19: ArmA Process START: 08/06/2023 17:20:01
+08.06.2023 17:21:19: ArmA Process ID: 6656
+08.06.2023 17:21:20: CommandLine: arma3server_x64.exe     -port=2302 "-config=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_config.cfg" "-cfg=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_basic.cfg" "-profiles=C:\arma3\steamapps\common\arma3base\TADST\armabase" -name=armabase -filePatching -autoInit -servermod=@extDB3;@life_server;@The_Programmer;@infiSTAR_A3;@infiSTAR_A3_vision
+08.06.2023 17:24:40: <<<<< VISION CLIENT START >>>>>
+08.06.2023 17:24:40: Loading C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 17:24:40: Successfully loaded C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 17:24:40: Operating System: Microsoft Windows Server 2019 Standard Evaluation
+08.06.2023 17:24:40: ArmA Process START: 08/06/2023 17:23:26
+08.06.2023 17:24:40: ArmA Process ID: 3432
+08.06.2023 17:24:41: CommandLine: arma3server_x64.exe     -port=2302 "-config=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_config.cfg" "-cfg=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_basic.cfg" "-profiles=C:\arma3\steamapps\common\arma3base\TADST\armabase" -name=armabase -filePatching -autoInit -servermod=@extDB3;@life_server;@The_Programmer;@infiSTAR_A3;@infiSTAR_A3_vision
+08.06.2023 17:33:35: <<<<< VISION CLIENT START >>>>>
+08.06.2023 17:33:35: Loading C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 17:33:35: Successfully loaded C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 17:33:35: Operating System: Microsoft Windows Server 2019 Standard Evaluation
+08.06.2023 17:33:35: ArmA Process START: 08/06/2023 17:32:20
+08.06.2023 17:33:35: ArmA Process ID: 5208
+08.06.2023 17:33:37: CommandLine: arma3server_x64.exe     -port=2302 "-config=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_config.cfg" "-cfg=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_basic.cfg" "-profiles=C:\arma3\steamapps\common\arma3base\TADST\armabase" -name=armabase -filePatching -autoInit -servermod=@extDB3;@life_server;@The_Programmer;@infiSTAR_A3;@infiSTAR_A3_vision
+08.06.2023 17:45:10: <<<<< VISION CLIENT START >>>>>
+08.06.2023 17:45:10: Loading C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 17:45:10: Successfully loaded C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 17:45:10: Operating System: Microsoft Windows Server 2019 Standard Evaluation
+08.06.2023 17:45:10: ArmA Process START: 08/06/2023 17:43:52
+08.06.2023 17:45:10: ArmA Process ID: 2928
+08.06.2023 17:45:11: CommandLine: arma3server_x64.exe     -port=2302 "-config=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_config.cfg" "-cfg=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_basic.cfg" "-profiles=C:\arma3\steamapps\common\arma3base\TADST\armabase" -name=armabase -filePatching -autoInit -servermod=@extDB3;@life_server;@The_Programmer;@infiSTAR_A3;@infiSTAR_A3_vision
+08.06.2023 18:16:21: <<<<< VISION CLIENT START >>>>>
+08.06.2023 18:16:21: Loading C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 18:16:21: Successfully loaded C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+08.06.2023 18:16:21: Operating System: Microsoft Windows Server 2019 Standard Evaluation
+08.06.2023 18:16:21: ArmA Process START: 08/06/2023 18:15:05
+08.06.2023 18:16:21: ArmA Process ID: 5060
+08.06.2023 18:16:22: CommandLine: arma3server_x64.exe     -port=2302 "-config=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_config.cfg" "-cfg=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_basic.cfg" "-profiles=C:\arma3\steamapps\common\arma3base\TADST\armabase" -name=armabase -filePatching -autoInit -servermod=@extDB3;@life_server;@The_Programmer;@infiSTAR_A3;@infiSTAR_A3_vision
+09.06.2023 14:34:01: <<<<< VISION CLIENT START >>>>>
+09.06.2023 14:34:01: Loading C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+09.06.2023 14:34:01: Successfully loaded C:\arma3\steamapps\common\arma3base\@infiSTAR_A3_vision\config.vision
+09.06.2023 14:34:01: Operating System: Microsoft Windows Server 2019 Standard Evaluation
+09.06.2023 14:34:01: ArmA Process START: 09/06/2023 14:32:29
+09.06.2023 14:34:01: ArmA Process ID: 6548
+09.06.2023 14:34:03: CommandLine: "C:\arma3\steamapps\common\arma3base\arma3server_x64.exe"  -port=2302 "-config=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_config.cfg" "-cfg=C:\arma3\steamapps\common\arma3base\TADST\armabase\TADST_basic.cfg" "-profiles=C:\arma3\steamapps\common\arma3base\TADST\armabase" -name=armabase -filePatching -autoInit -servermod=@extDB3;@life_server;@The_Programmer;@infiSTAR_A3;@infiSTAR_A3_vision
