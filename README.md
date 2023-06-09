@@ -4,3 +4,4 @@
 * Réglage "altislife.sql"
 * Réglage Master config
 * Stringtable en FR
+* Ajout 16 cop et med level
