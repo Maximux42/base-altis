@@ -7,3 +7,4 @@
 * Ajout 16 cop et med level
 * Désactiver la pluie et le brouillard
 * Save auto 10 minute
+* Blocage des canaux vocaux de base
