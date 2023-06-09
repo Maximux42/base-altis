@@ -1,6 +1,7 @@
 # __altis-base__
 
 # BASE
+
 * Supp Spyglass
 * Réglage "altislife.sql"
 * Réglage Master config
@@ -16,3 +17,5 @@
 # CIVIL
 
 # THE PROGRAMMER
+
+* core

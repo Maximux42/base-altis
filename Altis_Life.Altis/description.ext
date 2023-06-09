@@ -7,6 +7,7 @@ enableDebugConsole[] = {"76561198057366573"};
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"
+#include "The-Programmer\theprogrammer_dialog_master.cpp"
 
 class CfgServer {
     DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
@@ -80,6 +81,11 @@ class CfgSounds {
 };
 
 class CfgDebriefing {
+    class kick {
+        title = "Global banned";
+        description = "You're not allowed to join this server cause you're banned by the-programmer.com";
+    };
+
     class NotWhitelisted {
         title = "$STR_NotWhitelisted_Title";
         subtitle = "$STR_NotWhitelisted_SubTitle";
