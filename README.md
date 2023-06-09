@@ -1,5 +1,6 @@
 # __altis-base__
 
+# BASE
 * Supp Spyglass
 * Réglage "altislife.sql"
 * Réglage Master config
@@ -8,3 +9,9 @@
 * Désactiver la pluie et le brouillard
 * Save auto 10 minute
 * Blocage des canaux vocaux de base
+
+# COP et MEDIC
+
+# CIVIL
+
+# THE PROGRAMMER
