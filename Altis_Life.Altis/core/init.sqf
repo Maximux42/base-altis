@@ -119,7 +119,21 @@ if (life_HC_isActive) then {
 };
 
 [] call life_fnc_hudSetup;
+/*
+    Author: Maxence for The Programmer Forum
 
+    Description: Autosave the player informations
+*/
+[] spawn {
+    _saveInterval = 10; // En minutes
+
+    while {true} do {
+        hint "Sauvegarde automatique de vos informations effectuée !";
+        [] call SOCK_fnc_updateRequest;
+
+        sleep (_saveInterval * 60);
+    };
+};
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format ["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime - _timeStamp)];
 diag_log "----------------------------------------------------------------------------------------------------";
