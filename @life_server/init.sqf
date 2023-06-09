@@ -207,6 +207,25 @@ aiSpawn = ["hunting_zone",30] spawn TON_fnc_huntingZone;
 
 server_corpses = [];
 addMissionEventHandler ["EntityRespawned", {_this call TON_fnc_entityRespawned}];
+/*
+    Gestion de la météo
+    Author: BLADE
+
+    Aide configuration:
+    Pour modifier l'état de la pluie ou du brouillard, modifiez simplement
+    le 0 ou le 1 après setRain ou setFog par la valeur de votre choix.
+
+    0 = Désactiver
+    1 = Activer
+*/
+
+0 setRain 0; //<-- Configurez ici
+forceWeatherChange;
+999999 setRain 0;
+
+0 setFog 0; ///<-- Configurez ici
+forceWeatherChange;
+999999 setFog 0;
 
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format ["               End of Altis Life Server Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
