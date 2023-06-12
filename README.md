@@ -12,6 +12,7 @@
 * Blocage des canaux vocaux de base
 * ajout infistar
 * modif prison (point évadé)
+* supp valise et argent mort
 
 # COP et MEDIC
 
