@@ -10,11 +10,13 @@
 * Désactiver la pluie et le brouillard
 * Save auto 10 minute
 * Blocage des canaux vocaux de base
-* ajout infistar
-* modif prison (point évadé)
-* supp valise et argent mort
+* Ajout infistar
+* Modif prison (point évadé)
+* Supp valise et argent mort
 
 # COP et MEDIC
+
+* Dévérouiller véhicule
 
 # CIVIL
 

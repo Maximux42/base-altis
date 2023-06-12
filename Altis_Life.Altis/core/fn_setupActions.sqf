@@ -22,9 +22,13 @@ switch (playerSide) do {
     };
     
     //Cops
-    case west: { };
+    case west: { 
+        life_actions pushBack (player addAction["<t color='#266ff7'>Déverouiller le véhicule</t>",{cursorObject lock false;},"",0,false,false,"",'((cursorObject isKindOf "Car") && ((locked cursorObject) isEqualTo 2))']);
+    };
     
     //EMS
-    case independent: { };
+    case independent: { 
+        life_actions pushBack (player addAction["<t color='#266ff7'>Déverouiller le véhicule</t>",{cursorObject lock false;},"",0,false,false,"",'((cursorObject isKindOf "Car") && ((locked cursorObject) isEqualTo 2))']);
+    };
 
 };
