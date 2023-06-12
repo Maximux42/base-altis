@@ -217,7 +217,7 @@ switch (_code) do {
     //Y Player Menu
     case 21: {
         if (!_alt && !_ctrlKey && !dialog && !(player getVariable ["restrained",false]) && {!life_action_inUse}) then {
-            [] call life_fnc_p_openMenu;
+            [1] spawn the_programmer_iphone_xi_fnc_phone_init;
         };
     };
 

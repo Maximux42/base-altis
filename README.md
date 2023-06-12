@@ -11,6 +11,7 @@
 * Save auto 10 minute
 * Blocage des canaux vocaux de base
 * ajout infistar
+* modif prison (point évadé)
 
 # COP et MEDIC
 
@@ -19,3 +20,4 @@
 # THE PROGRAMMER
 
 * core
+* iphone

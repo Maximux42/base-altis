@@ -45,7 +45,7 @@ if (_edible > -1 || _drinkable > -1) exitWith {
         };
     };
 
-    [] call life_fnc_p_updateMenu;
+    [] call the_programmer_iphone_xi_fnc_apps_inventory;
     [] call life_fnc_hudUpdate;
 };
 
@@ -104,5 +104,5 @@ switch (_item) do {
     };
 };
 
-[] call life_fnc_p_updateMenu;
+[] call the_programmer_iphone_xi_fnc_apps_inventory;
 [] call life_fnc_hudUpdate;
