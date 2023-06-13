@@ -22,7 +22,7 @@ class Life_Client_Core {
         class setupActions {};
         class setupEVH {};
         class survival {};
-        class welcomeNotification {};
+        //class welcomeNotification {};
     };
 
     class Actions {
