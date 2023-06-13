@@ -9,6 +9,12 @@
 */
 class VirtualShops {
     //Virtual Shops
+    class adminV {
+        name = "STR_Shops_Market";
+        side = "";
+        conditions = "";
+        items[] = { "salt_refined","cement","goldbar","lockpickDP", "defusekit", "defibrillator", "spikeStrip","oil_processed","cocaine_processed", "heroin_processed", "marijuana","coffee", "donuts","waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "boltcutter", "blastingcharge","turtle_soup", "turtle_raw","salema_raw", "salema", "ornate_raw", "ornate", "mackerel_raw", "mackerel", "tuna_raw", "tuna", "mullet_raw", "mullet", "catshark_raw", "catshark","glass","iron_refined", "copper_refined","diamond_uncut", "diamond_cut" };
+    };
     class market {
         name = "STR_Shops_Market";
         side = "civ";
@@ -33,7 +39,7 @@ class VirtualShops {
     class gang {
         name = "STR_Shops_Gang";
         side = "civ";
-        conditions = "";
+        conditions = "license_civ_rebel";
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
 
