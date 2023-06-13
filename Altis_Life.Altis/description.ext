@@ -32,6 +32,18 @@ class CfgFunctions {
 class CfgSounds {
     sounds[] = {};
     #include "The-Programmer\Iphone_XI\Sounds.hpp"
+    
+    class lockpickDP {
+        name = "lockpickDP";
+        sound[] = {"\sounds\lockpickDP.ogg", 1.0, 1};
+        titles[] = {};
+    }; 
+
+    class lockpick {
+        name = "lockpick";
+        sound[] = {"\sounds\lockpick.ogg", 1.0, 1};
+        titles[] = {};
+    };
 
     class sirenLong {
         name = "sirenLong";

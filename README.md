@@ -13,7 +13,7 @@
 * Ajout infistar
 * Modif prison (point évadé)
 * Supp valise et argent mort
-* Ajout lockpickDP
+* Ajout lockpickDP + son
 * Suppression du message "Welcome"
 
 

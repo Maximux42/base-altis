@@ -26,6 +26,8 @@ if (_curTarget getVariable "NPC") exitWith {hint localize "STR_NPC_Protected"};
 _title = format [localize "STR_ISTR_Lock_Process",if (!_isVehicle) then {"Handcuffs"} else {getText(configFile >> "CfgVehicles" >> (typeOf _curTarget) >> "displayName")}];
 life_action_inUse = true; //Lock out other actions
 
+player say3D ["lockpick",30];
+
 //Setup the progress bar
 disableSerialization;
 "progressBar" cutRsc ["life_progress","PLAIN"];
