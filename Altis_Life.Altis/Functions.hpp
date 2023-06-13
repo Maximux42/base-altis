@@ -256,6 +256,7 @@ class Life_Client_Core {
         class jerrycanRefuel {};
         class jerryRefuel {};
         class lockpick {};
+        class lockpickDP {};
         class placestorage {};
         class spikeStrip {};
         class storageBox {};

@@ -94,6 +94,11 @@ switch (_item) do {
         closeDialog 0;
     };
 
+    case "lockpickDP": {
+        [] spawn life_fnc_lockpickDP;
+        closeDialog 0;
+    };
+
     case "lockpick": {
         [] spawn life_fnc_lockpick;
         closeDialog 0;

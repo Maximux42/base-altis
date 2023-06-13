@@ -125,7 +125,7 @@ class VirtualShops {
         name = "STR_Shops_Cop";
         side = "cop";
         conditions = "";
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+        items[] = { "lockpickDP", "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
     };
 };
 
@@ -216,6 +216,17 @@ class VirtualItems {
         edible = -1;
         drinkable = -1;
         icon = "icons\ico_spikeStrip.paa";
+    };
+    class lockpickDP {
+        variable = "lockpickDP";
+        displayName = "STR_Item_lockpickDP";
+        weight = 1;
+        buyPrice = 150;
+        sellPrice = 75;
+        illegal = true;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_lockpick.paa";
     };
 
     class lockpick {

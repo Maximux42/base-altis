@@ -1927,6 +1927,9 @@
         <Key ID="STR_Item_RedGull">
             <Origina>RedGull</Origina>
         </Key>
+        <Key ID="STR_Item_LockpickDP">
+            <Origina>Crochetage DP</Origina>
+        </Key>
         <Key ID="STR_Item_Lockpick">
             <Origina>Outil de crochetage</Origina>
         </Key>

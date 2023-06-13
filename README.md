@@ -13,6 +13,7 @@
 * Ajout infistar
 * Modif prison (point évadé)
 * Supp valise et argent mort
+* ajout lockpickDP
 
 # COP et MEDIC
 
