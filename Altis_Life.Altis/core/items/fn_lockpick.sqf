@@ -16,6 +16,8 @@ _distance = ((boundingBox _curTarget select 1) select 0) + 2;
 if (player distance _curTarget > _distance) exitWith {}; //Too far
 
 _isVehicle = if ((_curTarget isKindOf "LandVehicle") || (_curTarget isKindOf "Ship") || (_curTarget isKindOf "Air")) then {true} else {false};
+private _blockedVehicleClasses = ["B_Quadbike_01_F"];//ajout ou changement de class vehicule
+if (_isVehicle && (typeOf _curTarget) in _blockedVehicleClasses) exitWith {hint "Impossible de crocheter le véhicule";};
 if (_isVehicle && _curTarget in life_vehicles) exitWith {hint localize "STR_ISTR_Lock_AlreadyHave"};
 
 //More error checks

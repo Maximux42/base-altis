@@ -14,6 +14,7 @@
 * Modif prison (point évadé)
 * Supp valise et argent mort
 * Ajout lockpickDP + son
+* Blocage lockpick pour certain véhicule
 * Suppression du message "Welcome"
 
 
