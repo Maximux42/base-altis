@@ -1,4 +1,4 @@
-# `#0000`__altis-base__
+# __altis-base__
 
 # BASE
 
