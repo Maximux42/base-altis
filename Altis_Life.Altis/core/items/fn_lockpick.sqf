@@ -69,7 +69,7 @@ for "_i" from 0 to 1 step 0 do {
 
 //Kill the UI display and check for various states
 "progressBar" cutText ["","PLAIN"];
-player say3D ["", 0]
+player say3D ["", 0];
 player playActionNow "stop";
 
 if (!alive player || life_istazed || life_isknocked) exitWith {life_action_inUse = false;};

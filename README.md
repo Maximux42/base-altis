@@ -24,7 +24,8 @@
 
 # COP
 
-* Raccourci pour placer des herses (shift + C)
+* Enlever la limite de herse
+    - Raccourci pour placer des herses (shift + C)
 
 # CIVIL
 
