@@ -23,13 +23,11 @@ if (visibleMap) then {
     } forEach allDeadMen;
 
     {
-        if !(_x isEqualTo player) then {
-            _markerss = createMarkerLocal [format ["%1_marker",_x],visiblePosition _x];
-            _markerss setMarkerColorLocal "ColorIndependent";
-            _markerss setMarkerTypeLocal "Mil_dot";
-            _markerss setMarkerTextLocal format ["%1", _x getVariable ["realname",name _x]];
-
-            _markersMedecin pushBack [_markerss,_x];
+        _marker = createMarkerLocal ["moi_marker",(visiblePosition player)];
+        _marker setMarkerTextLocal "Moi"; // modifier ici le texte
+        _marker setMarkerTypeLocal "mil_dot"; // modifier ici le marker
+        _marker setMarkerColorLocal "colorIndependent"; // modifier ici la couleur
+        _markers pushBack [_marker,player];
         };
     } forEach _medics;
 

@@ -21,6 +21,7 @@
 # COP et MEDIC
 
 * Dévérouiller véhicule
+* Position sur la carte
 
 # COP
 
@@ -28,6 +29,8 @@
     - Raccourci pour placer des herses (shift + C)
 
 # CIVIL
+
+* Position sur la carte
 
 # THE PROGRAMMER
 

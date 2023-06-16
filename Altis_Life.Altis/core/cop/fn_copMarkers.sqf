@@ -15,13 +15,11 @@ if (visibleMap) then {
 
     //Create markers
     {
-        if !(_x isEqualTo player) then {
-            _marker = createMarkerLocal [format ["%1_marker",_x],visiblePosition _x];
-            _marker setMarkerColorLocal "ColorBLUFOR";
-            _marker setMarkerTypeLocal "Mil_dot";
-            _marker setMarkerTextLocal format ["%1", _x getVariable ["realname",name _x]];
-
-            _markers pushBack [_marker,_x];
+        _marker = createMarkerLocal ["moi_marker",(visiblePosition player)];
+        _marker setMarkerTextLocal "Moi"; // modifier ici le texte
+        _marker setMarkerTypeLocal "mil_dot"; // modifier ici le marker
+        _marker setMarkerColorLocal "colorBLUFOR"; // modifier ici la couleur
+        _markers pushBack [_marker,player];
         };
     } forEach _cops;
 
