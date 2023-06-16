@@ -22,6 +22,10 @@
 
 * Dévérouiller véhicule
 
+# COP
+
+* Raccourci pour placer des herses (shift + C)
+
 # CIVIL
 
 # THE PROGRAMMER

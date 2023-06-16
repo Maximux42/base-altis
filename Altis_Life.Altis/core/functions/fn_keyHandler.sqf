@@ -90,6 +90,19 @@ if (life_container_active) exitwith {
 };
 
 switch (_code) do {
+    
+    case 46: {
+        if (_shift && !_alt && !_ctrlKey) then {
+            if (playerSide isEqualTo west) then {
+                if (!isNull life_spikestrip) exitWith {hint localize "STR_ISTR_SpikesDeployment"; closeDialog 0};
+
+                if ([false, "spikeStrip", 1] call life_fnc_handleInv) then {
+                    [] spawn life_fnc_spikeStrip;
+                    closeDialog 0;
+                };
+            };
+        };
+    };
     // -- Disable commander/tactical view
     if (LIFE_SETTINGS(getNumber,"disableCommanderView") isEqualTo 1) then {
         private _CommandMode = actionKeys "tacticalView";
