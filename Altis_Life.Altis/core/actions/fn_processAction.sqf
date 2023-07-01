@@ -53,6 +53,12 @@ if (_vendor in [mari_processor,coke_processor,heroin_processor]) then {
 };
 
 _cost = _cost * (count _oldItem);
+_exit = false;
+if !(_hasLicense) then {
+ _condition = M_CONFIG(getText,"ProcessAction",_type,"condition");
+ if !(_condition isEqualTo "") then {if (missionNamespace getVariable [_condition,false]) then {_hasLicense = true;} else {_exit = true;};};
+};
+if (_exit) exitWith {hint "Vous n'avez pas le droit de faire ce traitement !"; life_is_processing = false; life_action_inUse = false;};
 
 _minimumConversions = _totalConversions call BIS_fnc_lowestNum;
 _oldItemWeight = 0;
