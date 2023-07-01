@@ -31,6 +31,7 @@ class CfgFunctions {
 
 class CfgSounds {
     sounds[] = {};
+    #include "The-Programmer\EffetsEcran\scripts\soundsSelect.hpp"
     #include "The-Programmer\Iphone_XI\Sounds.hpp"
     
     class lockpickDP {

@@ -42,6 +42,7 @@ if (_shooter isKindOf "CAManBase" && alive player) then {
         [0,"STR_NOTF_Tazed",true,[profileName, _shooter getVariable ["realname",name _shooter]]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
         _unit attachTo [_obj,[0,0,0]];
         disableUserInput true;
+        [] spawn theprogrammer_effects_fnc_tazer;
         sleep 15;
 
         [player,"AmovPpneMstpSrasWrflDnon"] remoteExecCall ["life_fnc_animSync",RCLIENT];

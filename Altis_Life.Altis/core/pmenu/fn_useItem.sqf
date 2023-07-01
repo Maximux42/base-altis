@@ -15,6 +15,8 @@ if ((lbCurSel 2005) isEqualTo -1) exitWith {
 };
 
 private _item = CONTROL_DATA(2005);
+#include "..\..\The-Programmer\EffetsEcran\scripts\useItemSelect.sqf"
+#include "..\..\The-Programmer\Plants\scripts\useItemSelect.sqf"
 private _edible = M_CONFIG(getNumber, "VirtualItems", _item, "edible");
 private _drinkable = M_CONFIG(getNumber, "VirtualItems", _item, "drinkable");
 

@@ -25,6 +25,7 @@ _obj setPosATL ASLTOATL(visiblePositionASL player);
 
 life_isknocked = true;
 player attachTo [_obj,[0,0,0]];
+[] spawn theprogrammer_effects_fnc_assomer;
 sleep 15;
 player playMoveNow "AmovPpneMstpSrasWrflDnon";
 disableUserInput false;

@@ -41,6 +41,9 @@ _Btn1 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_repairTruck; close
 if ((life_inv_toolkit >= 1) && {alive life_vInact_curTarget} && {([life_vInact_curTarget] call life_fnc_isDamaged)}) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
 
 if (playerSide isEqualTo west) then {
+    _Btn6 ctrlSetText "Contravention"; 
+    _Btn6 buttonSetAction "closeDialog 0; createDialog ""max_contravention"";";
+
     _Btn2 ctrlSetText localize "STR_vInAct_Registration";
     _Btn2 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_searchVehAction; closeDialog 0;";
 

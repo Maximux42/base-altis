@@ -309,6 +309,7 @@ switch (_code) do {
                 private _locked = locked _veh;
                 if (_veh in life_vehicles && {player distance _veh < 20}) then {
                     if (_locked isEqualTo 2) then {
+                        #include "..\..\The-Programmer\Contravention\scripts\unlockVehCheck.sqf"
                         if (local _veh) then {
                             _veh lock 0;
 

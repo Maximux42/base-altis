@@ -1,4 +1,4 @@
-/*
+/*heroin
 *    FORMAT:
 *        STRING (Conditions) - Must return boolean :
 *            String can contain any amount of conditions, aslong as the entire
@@ -13,7 +13,7 @@ class VirtualShops {
         name = "STR_Shops_Market";
         side = "";
         conditions = "";
-        items[] = { "salt_refined","cement","goldbar","lockpickDP", "defusekit", "defibrillator", "spikeStrip","oil_processed","cocaine_processed", "heroin_processed", "marijuana","coffee", "donuts","waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "boltcutter", "blastingcharge","turtle_soup", "turtle_raw","salema_raw", "salema", "ornate_raw", "ornate", "mackerel_raw", "mackerel", "tuna_raw", "tuna", "mullet_raw", "mullet", "catshark_raw", "catshark","glass","iron_refined", "copper_refined","diamond_uncut", "diamond_cut" };
+        items[] = { "sunflower","tobacco","tomato","lettuce","cotton","strawberry","wheat","chili_pepper","artichoke","corn","seed_sunflower","seed_tobacco","seed_tomato","seed_lettuce","seed_cotton","seed_strawberry","seed_wheat","seed_chili_pepper","seed_artichoke","seed_corn","seed_cannabis","seed_cocaine","seed_heroin","seed_cannabis","seed_cocaine","seed_heroin","salt_refined","cement","goldbar","lockpickDP", "defusekit", "defibrillator", "spikeStrip","oil_processed","cocaine_processed", "heroin_processed", "marijuana","coffee", "donuts","waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "boltcutter", "blastingcharge","turtle_soup", "turtle_raw","salema_raw", "salema", "ornate_raw", "ornate", "mackerel_raw", "mackerel", "tuna_raw", "tuna", "mullet_raw", "mullet", "catshark_raw", "catshark","glass","iron_refined", "copper_refined","diamond_uncut", "diamond_cut" };
     };
     class market {
         name = "STR_Shops_Market";
@@ -21,7 +21,12 @@ class VirtualShops {
         conditions = "";
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
-
+    class gamvert {
+        name = "STR_Shops_gamvert";
+        side = "civ";
+        conditions = "";
+        items[] = { "desherbant","arrosoir","sunflower","tobacco","tomato","lettuce","cotton","strawberry","wheat","chili_pepper","artichoke","corn","seed_sunflower","seed_tobacco","seed_tomato","seed_lettuce","seed_cotton","seed_strawberry","seed_wheat","seed_chili_pepper","seed_artichoke","seed_corn", };
+    };
     class med_market {
         name = "STR_Shops_Market";
         side = "med";
@@ -68,7 +73,7 @@ class VirtualShops {
         name = "STR_Shops_DrugDealer";
         side = "civ";
         conditions = "";
-        items[] = { "cocaine_processed", "heroin_processed", "marijuana" };
+        items[] = { "cocaine_processed", "heroin_processed", "marijuana","seed_cannabis","seed_cocaine","seed_heroin" };
     };
 
     class oil {
@@ -131,7 +136,7 @@ class VirtualShops {
         name = "STR_Shops_Cop";
         side = "cop";
         conditions = "";
-        items[] = { "lockpickDP", "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+        items[] = { "desherbant","Test_drugs","Alcootest","lockpickDP", "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
     };
 };
 
@@ -150,6 +155,287 @@ class VirtualShops {
 */
 class VirtualItems {
     //Virtual Items
+    //ajout New
+    class arrosoir {
+        variable = "arrosoir";
+        displayName = "STR_Item_arrosoir";
+        weight = 2;
+        buyPrice = 20;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\arrosoir.paa";
+    };
+    class desherbant {
+        variable = "desherbant";
+        displayName = "STR_Item_desherbant";
+        weight = 2;
+        buyPrice = 150;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\desherbants.paa";
+    };
+    class seed_heroin {
+        variable = "seed_heroin";
+        displayName = "seed_heroin";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_cocaine {
+        variable = "seed_cocaine";
+        displayName = "seed_cocaine";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_cannabis {
+        variable = "seed_cannabis";
+        displayName = "seed_cannabis";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_corn {
+        variable = "seed_corn";
+        displayName = "seed_corn";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_artichoke {
+        variable = "seed_artichoke";
+        displayName = "seed_artichoke";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_chili_pepper {
+        variable = "seed_chili_pepper";
+        displayName = "seed_chili_pepper";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_wheat {
+        variable = "seed_wheat";
+        displayName = "seed_wheat";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_strawberry {
+        variable = "seed_strawberry";
+        displayName = "seed_strawberry";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_cotton {
+        variable = "seed_cotton";
+        displayName = "seed_cotton";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_lettuce {
+        variable = "seed_lettuce";
+        displayName = "seed_lettuce";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_tomato {
+        variable = "seed_tomato";
+        displayName = "seed_tomato";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_tobacco {
+        variable = "seed_tobacco";
+        displayName = "seed_tobacco";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class seed_sunflower {
+        variable = "seed_sunflower";
+        displayName = "seed_sunflower";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\seeds.paa";
+    };
+    class corn {
+        variable = "corn";
+        displayName = "corn";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\corn.paa";
+    };
+    class artichoke {
+        variable = "artichoke";
+        displayName = "artichoke";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\artichoke.paa";
+    };
+    class chili_pepper {
+        variable = "chili_pepper";
+        displayName = "chili_pepper";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\chili_pepper.paa";
+    };
+    class wheat {
+        variable = "wheat";
+        displayName = "wheat";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\wheat.paa";
+    };
+    class strawberry {
+        variable = "strawberry";
+        displayName = "strawberry";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\strawberry.paa";
+    };
+    class cotton {
+        variable = "cotton";
+        displayName = "cotton";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\cotton.paa";
+    };
+    class lettuce {
+        variable = "lettuce";
+        displayName = "lettuce";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\lettuce.paa";
+    };
+    class tomato {
+        variable = "tomato";
+        displayName = "tomato";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\tomato.paa";
+    };
+    class tobacco {
+        variable = "tobacco";
+        displayName = "tobacco";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\tabac.paa";
+    };
+    class sunflower {
+        variable = "sunflower";
+        displayName = "sunflower";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\sunflower.paa";
+    };
+    class Biere {
+        variable = "Biere";
+        displayName = "STR_Item_Biere";
+        weight = 2;
+        buyPrice = 150;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\icons\biere.paa";
+    };
+    class Alcootest {
+        variable = "Alcootest";
+        displayName = "STR_Item_Alcootest";
+        weight = 2;
+        buyPrice = 150;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\EffetsEcran\textures\ico_test_alcohol.paa";
+    };
+    class Test_drugs {
+        variable = "Test_drugs";
+        displayName = "STR_Item_Test_drugs";
+        weight = 2;
+        buyPrice = 150;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "\mission\EffetsEcran\textures\ico_test_drugs.paa";
+    };
 
     //Misc
     class pickaxe {

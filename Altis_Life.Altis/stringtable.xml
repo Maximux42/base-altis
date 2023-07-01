@@ -1756,6 +1756,90 @@
         </Key>
     </Package>
     <Package name="Life_Items">
+        <Key ID="STR_Item_arrosoir">
+        <Original>Watering Can</Original>
+        </Key>
+        <Key ID="STR_Item_desherbant">
+            <Original>Désherbant</Original>
+        </Key>
+        <Key ID="seed_heroin">
+        <Original>Graine Héroïne</Original>
+        </Key>
+        <Key ID="seed_cocaine">
+            <Original>Graine Cocaine</Original>
+        </Key>
+        <Key ID="seed_cannabis">
+            <Original>Graine Cannabis</Original>
+        </Key>
+        <Key ID="seed_corn">
+            <Original>Graine Maïs</Original>
+        </Key>
+        <Key ID="seed_artichoke">
+            <Original>Graine Artichaut</Original>
+        </Key>
+        <Key ID="seed_chili_pepper">
+            <Original>Graine Piment</Original>
+        </Key>
+        <Key ID="seed_wheat">
+            <Original>Graine Blé</Original>
+        </Key>
+        <Key ID="seed_strawberry">
+            <Original>Graine Fraise</Original>
+        </Key>
+        <Key ID="seed_cotton">
+            <Original>Graine Coton</Original>
+        </Key>
+        <Key ID="seed_lettuce">
+            <Original>Graine Laitue</Original>
+        </Key>
+        <Key ID="seed_tomato">
+            <Original>Graine Tomate</Original>
+        </Key>
+        <Key ID="seed_tobacco">
+            <Original>Graine Tabac</Original>
+        </Key>
+        <Key ID="seed_sunflower">
+            <Original>Graine Tournesol</Original>
+        </Key>
+        <Key ID="corn">
+            <Original>Maïs</Original>
+        </Key>
+        <Key ID="artichoke">
+            <Original>Artichaut</Original>
+        </Key>
+        <Key ID="chili_pepper">
+            <Original>Piment</Original>
+        </Key>
+        <Key ID="wheat">
+            <Original>Blé</Original>
+        </Key>
+        <Key ID="strawberry">
+            <Original>Fraise</Original>
+        </Key>
+        <Key ID="cotton">
+            <Original>Coton</Original>
+        </Key>
+        <Key ID="lettuce">
+            <Original>Laitue</Original>
+        </Key>
+        <Key ID="tomato">
+            <Original>Tomate</Original>
+        </Key>
+        <Key ID="tobacco">
+            <Original>Tabac</Original>
+        </Key>
+        <Key ID="sunflower">
+            <Original>Tournesol</Original>
+        </Key>
+        <Key ID="STR_Item_Test_drugs">
+            <Origina>Test salivaire</Origina>
+        </Key> 
+        <Key ID="STR_Item_Biere">
+            <Origina>Biere</Origina>
+        </Key>    
+        <Key ID="STR_Item_Alcootest">
+            <Origina>Alcootest</Origina>
+        </Key>
         <Key ID="STR_Item_Cannabis">
             <Origina>Cannabis</Origina>
         </Key>
