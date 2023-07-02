@@ -18,6 +18,8 @@ _return pushBack backpack player;
 _return pushBack goggles player;
 _return pushBack headgear player;
 _return pushBack assignedITems player;
+
+
 if (playerSide isEqualTo west || playerSide isEqualTo civilian && {LIFE_SETTINGS(getNumber,"save_civilian_weapons") isEqualTo 1}) then {
     _return pushBack primaryWeapon player;
     _return pushBack handgunWeapon player;
@@ -35,6 +37,7 @@ _vMags  = [];
 _pItems = [];
 _hItems = [];
 _yItems = [];
+_sItems = [];
 _uni = [];
 _ves = [];
 _bag = [];
@@ -153,5 +156,45 @@ if (LIFE_SETTINGS(getNumber,"save_virtualItems") isEqualTo 1) then {
 } else {
     _return pushBack [];
 };
+
+if (playerSide isEqualTo west || playerSide isEqualTo civilian && {LIFE_SETTINGS(getNumber,"save_civilian_weapons") isEqualTo 1}) then {
+    _return pushBack (secondaryWeapon player);
+} else {
+    _return pushBack "";
+};
+
+if (count (secondaryWeaponMagazine player) > 0 && alive player) then {
+    _sMag = ((secondaryWeaponMagazine player) select 0);
+
+    if (!(_sMag isEqualTo "")) then {
+        _uni = player canAddItemToUniform _sMag;
+        _ves = player canAddItemToVest _sMag;
+        _bag = player canAddItemToBackpack _sMag;
+        _handled = false;
+
+        if (_ves) then {
+            _vMags pushBack _sMag;
+            _handled = true;
+        };
+
+        if (_uni && !_handled) then {
+            _uMags pushBack _sMag;
+            _handled = true;
+        };
+
+        if (_bag && !_handled) then {
+            _bMags pushBack _sMag;
+            _handled = true;
+        };
+    };
+};
+
+if (count (secondaryWeaponItems player) > 0) then {
+    {
+        _sItems pushBack _x;
+    } forEach (primaryWeaponItems player);
+};
+
+_return pushBack _sItems;
 
 life_gear = _return;

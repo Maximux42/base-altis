@@ -21,6 +21,17 @@
 */
 class WeaponShops {
     //Armory Shops
+        class outils {
+        name = "Billy matos";
+        side = "";
+        conditions = "";
+        items[] = {
+            { "axe", "", 100, 10, "" },
+            { "pickaxe", "", 1000, 10, "" }
+        };
+        mags[] = {};
+        accs[] = {};
+    };
     class gun {
         name = "Billy Joe's Firearms";
         side = "civ";

@@ -40,5 +40,9 @@
 * Drugs & screen effects
 * Ticket System
 * Growing System
+* Company System
+* Fuel Station
+* Dispatch System
+* Farming System
 
     

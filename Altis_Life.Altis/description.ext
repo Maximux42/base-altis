@@ -33,7 +33,12 @@ class CfgSounds {
     sounds[] = {};
     #include "The-Programmer\EffetsEcran\scripts\soundsSelect.hpp"
     #include "The-Programmer\Iphone_XI\Sounds.hpp"
-    
+    class dispatch {
+        name = "dispatch";
+        sound[] = {"The-Programmer\Dispatch\sounds\dispatch.ogg", 1, 1, 5};
+        titles[] = {};
+    };
+
     class lockpickDP {
         name = "lockpickDP";
         sound[] = {"\sounds\lockpickDP.ogg", 1.0, 1};

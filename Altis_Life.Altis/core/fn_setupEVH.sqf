@@ -15,3 +15,4 @@ player addEventHandler ["InventoryOpened", {_this call life_fnc_inventoryOpened}
 player addEventHandler ["HandleRating", {0}];
 
 addMissionEventHandler ["Map", {_this call life_fnc_checkMap}];
+["ace_unconscious", {_this spawn max_callsmanage_fnc_requestMedic}] call CBA_fnc_addEventHandler;

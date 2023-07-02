@@ -5,3 +5,6 @@
 #include "Plants\dialogs.cpp"
 #include "Entreprise\dialogs.cpp"
 #include "FuelStations\dialogs.cpp"
+#include "Dispatch\dialogs.cpp"
+#include "Mining\dialogs.cpp"
+#include "RepairJob\dialogs.cpp"

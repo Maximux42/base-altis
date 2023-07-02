@@ -5,3 +5,4 @@ class theprogrammer_core_fnc_sendMessage {allowedTargets = 0;};
 #include "Plants\remoteExec.cpp"
 #include "Entreprise\dialogs.cpp"
 #include "FuelStations\remoteExec.cpp"
+#include "Mining\remoteExec.cpp"

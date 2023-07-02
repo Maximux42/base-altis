@@ -30,7 +30,9 @@ _itemArray params [
     ["_vMags",[]],
     ["_pItems",[]],
     ["_hItems",[]],
-    ["_yItems",[]]
+    ["_yItems",[]],
+    ["_launcher",""],
+    ["_sItems",[]]
 ];
 
 private "_handle";
@@ -57,6 +59,7 @@ life_maxWeight = if (backpack player isEqualTo "") then {LIFE_SETTINGS(getNumber
 //Primary & Secondary (Handgun) should be added last as magazines do not automatically load into the gun.
 if (!(_prim isEqualTo "")) then {_handle = [_prim,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
 if (!(_seco isEqualTo "")) then {_handle = [_seco,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
+if (!(_launcher isEqualTo "")) then {_handle = [_launcher,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
 
 {
     if (!(_x isEqualTo "")) then {
@@ -68,5 +71,11 @@ if (!(_seco isEqualTo "")) then {_handle = [_seco,true,false,false,false] spawn 
         player addHandgunItem _x;
     };
 } forEach (_hItems);
+
+{
+    if (!(_x isEqualTo "")) then {
+        player addSecondaryWeaponItem _x;
+    };
+} forEach (_sItems);
 
 [] call life_fnc_playerSkins;
