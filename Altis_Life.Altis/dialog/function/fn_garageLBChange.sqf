@@ -58,6 +58,7 @@ if (!(_retrievePrice isEqualType 0) || _retrievePrice < 1) then {_retrievePrice 
 (CONTROL(2800,2803)) ctrlSetStructuredText parseText format [
     (localize "STR_Shop_Veh_UI_RetrievalP")+ " <t color='#8cff9b'>$%1</t><br/>
     " +(localize "STR_Shop_Veh_UI_SellP")+ " <t color='#8cff9b'>$%2</t><br/>
+    Type d’essence : %9<br/>
     " +(localize "STR_Shop_Veh_UI_Color")+ " %8<br/>
     " +(localize "STR_Shop_Veh_UI_MaxSpeed")+ " %3 km/h<br/>
     " +(localize "STR_Shop_Veh_UI_HPower")+ " %4<br/>
@@ -72,7 +73,8 @@ if (!(_retrievePrice isEqualType 0) || _retrievePrice < 1) then {_retrievePrice 
 (_vehicleInfo select 10),
 if (_trunkSpace isEqualTo -1) then {"None"} else {_trunkSpace},
 (_vehicleInfo select 12),
-_vehicleColor
+_vehicleColor,
+[_classNameLife] call max_fuelstations_fnc_getFuelType
 ];
 
 ctrlShow [2803,true];

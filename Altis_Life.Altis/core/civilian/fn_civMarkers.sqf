@@ -5,6 +5,7 @@
     Description:
     Add markers for civilians in groups.
 */
+[] spawn max_fuelstations_fnc_displayLowPumps;
 private ["_markers","_members"];
 _markers = [];
 _members = [];

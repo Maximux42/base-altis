@@ -66,3 +66,11 @@ CREATE TABLE `entreprises` (
  `insert_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, 
 PRIMARY KEY (`id`) 
 ) COLLATE='utf8_general_ci' ENGINE=InnoDB;
+-- fuel stations
+CREATE TABLE `fuel_stations` (
+`id` INT(100) NOT NULL AUTO_INCREMENT,
+`type` TEXT NOT NULL,
+`position` VARCHAR(64) NOT NULL,
+`fuel` TEXT NOT NULL,
+PRIMARY KEY (`id`)
+) COLLATE='utf8_general_ci' ENGINE=InnoDB ROW_FORMAT=DYNAMIC;

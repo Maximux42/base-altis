@@ -51,6 +51,7 @@ ctrlShow [2330,true];
     (localize "STR_Shop_Veh_UI_Rental")+ " <t color='#8cff9b'>$%1</t><br/>" +
     (localize "STR_Shop_Veh_UI_Ownership")+ " <t color='#8cff9b'>$%2</t><br/>" +
     (localize "STR_Shop_Veh_UI_MaxSpeed")+ " %3 km/h<br/>" +
+    "Type d'essence : %9<br/>" +
     (localize "STR_Shop_Veh_UI_HPower")+ " %4<br/>" +
     (localize "STR_Shop_Veh_UI_PSeats")+ " %5<br/>" +
     (localize "STR_Shop_Veh_UI_Trunk")+ " %6<br/>" +
@@ -63,7 +64,8 @@ ctrlShow [2330,true];
     _passengerseats,
     if (_trunkSpace isEqualTo -1) then {"None"} else {_trunkSpace},
     _fuel,
-    _armor
+    _armor,
+    [_classNameLife] call max_fuelstations_fnc_getFuelType
 ];
 
 _ctrl = CONTROL(2300,2304);

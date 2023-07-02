@@ -156,6 +156,72 @@ class VirtualShops {
 class VirtualItems {
     //Virtual Items
     //ajout New
+    class gazole {
+        variable = "gazole";
+        displayName = "STR_Item_gazole";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "";
+    };
+    class SP95 {
+        variable = "SP95";
+        displayName = "STR_Item_SP95";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "";
+    };
+    class SP98 {
+        variable = "SP98";
+        displayName = "STR_Item_SP98";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "";
+    };
+    class GPL {
+        variable = "GPL";
+        displayName = "STR_Item_GPL";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "";
+    };
+    class Bio {
+        variable = "Bio";
+        displayName = "STR_Item_Bio";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "";
+    };
+    class Kerosene {
+        variable = "Kerosene";
+        displayName = "STR_Item_Kerosene";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "";
+    };
     class arrosoir {
         variable = "arrosoir";
         displayName = "STR_Item_arrosoir";

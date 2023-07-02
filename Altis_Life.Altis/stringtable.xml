@@ -1756,14 +1756,32 @@
         </Key>
     </Package>
     <Package name="Life_Items">
+        <Key ID="STR_Item_gazole">
+            <Original>Gazole</Original>
+        </Key>
+        <Key ID="STR_Item_SP95">
+            <Original>SP95</Original>
+        </Key>
+        <Key ID="STR_Item_SP98">
+            <Original>SP98</Original>
+        </Key>
+        <Key ID="STR_Item_GPL">
+            <Original>GPL</Original>
+        </Key>
+        <Key ID="STR_Item_Bio">
+            <Original>Biocarburant</Original>
+        </Key>
+        <Key ID="STR_Item_Kerosene">
+            <Original>Kerosene</Original>
+        </Key>
         <Key ID="STR_Item_arrosoir">
-        <Original>Watering Can</Original>
+            <Original>Arrosoir</Original>
         </Key>
         <Key ID="STR_Item_desherbant">
             <Original>Désherbant</Original>
         </Key>
         <Key ID="seed_heroin">
-        <Original>Graine Héroïne</Original>
+            <Original>Graine Héroïne</Original>
         </Key>
         <Key ID="seed_cocaine">
             <Original>Graine Cocaine</Original>
